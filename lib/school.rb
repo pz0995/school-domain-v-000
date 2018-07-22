@@ -8,13 +8,13 @@ def school(name)
   @school.roster = {}
 end
 
-def add_student(name, grade)
+def add_student=school.roster(name, grade)
   grade = Array.new
-  @school.add_student("Zach Morris", 9)
-  @school.add_student("AC Slater", 9)
-  @school.add_student("Kelly Kapowski", 10)
-  @school.add_student("Screech", 11)
-  @school.sort
+  9 << "Zach Morris"
+  9 << "AC Slater"
+  10<< ."Kelly Kapowski"
+  11 << "Screech"
+add_student.sort
 
 
 end
