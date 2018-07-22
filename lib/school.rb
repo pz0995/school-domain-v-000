@@ -11,7 +11,7 @@ end
 def initialize
     @school.roster = {}
 end
-  
+
 def add_student(name, grade)
   school.roster = Array.new(name, grade)
   "Zach Morris" >> 9
