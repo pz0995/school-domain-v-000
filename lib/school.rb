@@ -3,7 +3,7 @@ class School
 
 school.roster = {}
 
-def initialize(brand)
+def school(name)
 
 end
 
