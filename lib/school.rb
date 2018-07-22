@@ -10,11 +10,12 @@ end
 
 def add_student(name, grade)
   hash[new_key] = []
-  
+
   school.add_student("Zach Morris", 9)
   school.add_student("AC Slater", 9)
   school.add_student("Kelly Kapowski", 10)
   school.add_student("Screech", 11)
+  school.sort
 end
 
 
@@ -23,7 +24,3 @@ def grade(grade)
 #   return students in ea grade
 # hash
 end
-
-
-
-school.sort
