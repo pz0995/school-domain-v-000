@@ -1,10 +1,10 @@
 class School
+
+
+def school(name)
   school = School.new("Bayside High School")
 
 school.roster = {}
-
-def school(name)
-
 end
 
 def add_student(name, grade)
