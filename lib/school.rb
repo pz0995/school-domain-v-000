@@ -9,7 +9,8 @@ def school(name)
 end
 
 def initialize
-    @school.roster = {}
+    @school.roster = []
+    School
 end
 
 def add_student(name, grade)
