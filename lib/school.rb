@@ -9,7 +9,7 @@ end
 
 def add_student(name, grade)
   hash[new_key] = []
-  
+
   # school.add_student("Zach Morris", 9)
   # school.roster
   # hash[]
