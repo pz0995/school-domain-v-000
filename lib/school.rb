@@ -22,6 +22,7 @@ end
 
 
 def grade(grade)
-#   return students in ea grade
-# hash
+school.grade(9)
+school.grade(10)
+school.grade(11)
 end
