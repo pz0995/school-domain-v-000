@@ -10,10 +10,10 @@ end
 
 def add_student=roster(name, grade)
   school.roster = Array.new(name, grade)
-  9 << "Zach Morris"
-  9 << "AC Slater"
-  10 << "Kelly Kapowski"
-  11 << "Screech"
+  "Zach Morris" >> 9
+  "AC Slater" >> 9
+  "Kelly Kapowski" >> 10
+  "Screech" >> 11
 
 end
 
