@@ -5,9 +5,12 @@ def school(name)
   @name
   name = School.new("Bayside High School")
   @school
-  @school.roster = {}
+
 end
 
+def initialize
+    @school.roster = {}
+  end
 def add_student(name, grade)
   school.roster = Array.new(name, grade)
   "Zach Morris" >> 9
@@ -20,6 +23,6 @@ def grade(grade)
   school.grade(9)
   school.grade(10)
   school.grade(11)
-  @school.sort
+  roster.sort
   end
 end
