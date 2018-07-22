@@ -3,17 +3,20 @@ class School
 
 school.roster = {}
 
+def initialize(brand)
 
-def add_student
-  school.roster
+end
+
+def add_student(name, grade)
   school.add_student("Zach Morris", 9)
   school.roster
   hash[]
   school.add_student("AC Slater", 9)
   school.add_student("Kelly Kapowski", 10)
   school.add_student("Screech", 11)
-  school.roster
 end
+
+
 
 def grade(grade)
 hash
